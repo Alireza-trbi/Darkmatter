@@ -105,12 +105,17 @@ echo -e "${GREEN}Done ! ${NC}"
 
 >/etc/banner
 
-echo "    ___    __  ___________  __  ______  __________ ___________   __
-   /   |  /  |/  /  _/ __ \/ / / / __ \/ ___/ ___// ____/  _/ | / /
-  / /| | / /|_/ // // /_/ / /_/ / / / /\__ \\__ \ / __/  / //  |/ /
- / ___ |/ /  / // // _  _/ __  / /_/ /___/ /__/ / /____/ // /|  /
-/_/  |_/_/  /_/___/_/ |_/_/ /_/\____//____/____/_____/___/_/ |_/                                                                                                
-telegram : @AmirHosseinTSL" >> /etc/banner
+echo " 
+________                __                     __    __                
+\______ \ _____ _______|  | __   _____ _____ _/  |__/  |_  ___________ 
+ |    |  \\__  \\_  __ \  |/ /  /     \\__  \\   __\   __\/ __ \_  __ \
+ |    `   \/ __ \|  | \/    <  |  Y Y  \/ __ \|  |  |  | \  ___/|  | \/
+/_______  (____  /__|  |__|_ \ |__|_|  (____  /__|  |__|  \___  >__|   
+        \/     \/           \/       \/     \/                \/       
+   
+                  W I R E L E S S   F R E E D O M
+               https://t.me/net_lte BY @ALIREZA_TRBI                                                                  
+telegram : @ALIREZA_TRBI" >> /etc/banner
 
 sleep 1
 
@@ -230,18 +235,22 @@ uci set system.@system[0].timezone='<+0330>-3:30'
 
 uci commit system
 
-uci set system.@system[0].hostname=By-AmirHossein
+uci set system.@system[0].hostname=By-ALIREZA_TRBI
 
 uci commit system
 
-uci set dhcp.@dnsmasq[0].rebind_domain='www.ebanksepah.ir 
+uci set dhcp.@dnsmasq[0].rebind_domain='qmb.ir
+medu.ir
+ebanksepah.ir
+banksepah.ir
+medu.gov.ir
 my.irancell.ir'
 
 uci commit
 
 echo -e "${YELLOW}** Warning : To install Mahsa Core visit > Passwall2 > App Update > Xray Force Update ** ${ENDCOLOR}"
 
-echo -e "${MAGENTA} Made With Love By : AmirHossein ${ENDCOLOR}"
+echo -e "${MAGENTA} Made With Love By : ALIREZA_TRBI ${ENDCOLOR}"
 
 /sbin/reload_config
 
