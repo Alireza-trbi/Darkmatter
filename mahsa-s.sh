@@ -162,7 +162,7 @@ echo -e "${GREEN} Xray : OK ${NC}"
 
  else
            
-rm -f amirhossein.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
+rm -f amirhossein.sh && wget https://raw.githubusercontent.com/Alireza-trbi/Darkmatter/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 
 fi
 
@@ -250,7 +250,7 @@ uci commit
 
 echo -e "${YELLOW}** Warning : To install Mahsa Core visit > Passwall2 > App Update > Xray Force Update ** ${ENDCOLOR}"
 
-echo -e "${MAGENTA} Made With Love By : ALIREZA_TRBI ${ENDCOLOR}"
+echo -e "${MAGENTA} Made By : ALIREZA_TRBI ${ENDCOLOR}"
 
 /sbin/reload_config
 
