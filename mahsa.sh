@@ -255,7 +255,7 @@ rm /usr/bin/xray
 
 echo -e "${YELLOW}** Warning : To install Mahsa Core visit > Passwall2 > App Update > Xray Force Update ** ${ENDCOLOR}"
 
-echo -e "${MAGENTA} Made With By : ALIREZA_TRBI ${ENDCOLOR}"
+echo -e "${MAGENTA} Made By : ALIREZA_TRBI ${ENDCOLOR}"
 
 rm passwall2x.sh
 
