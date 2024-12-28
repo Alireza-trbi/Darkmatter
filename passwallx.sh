@@ -27,10 +27,13 @@ cp passwallx.sh /sbin/passwall
 . /etc/openwrt_release
 
 echo -e "${YELLOW} 
- _____ _____ _____ _____ _ _ _ _____ __    __    
-|  _  |  _  |   __|   __| | | |  _  |  |  |  |   
-|   __|     |__   |__   | | | |     |  |__|  |__ 
-|__|  |__|__|_____|_____|_____|__|__|_____|_____|
+echo " 
+________                __                     __    __                
+\______ \ _____ _______|  | __   _____ _____ _/  |__/  |_  ___________ 
+ |    |  \\__  \\_  __ \  |/ /  /     \\__  \\   __\   __\/ __ \_  __ \
+ |    `   \/ __ \|  | \/    <  |  Y Y  \/ __ \|  |  |  | \  ___/|  | \/
+/_______  (____  /__|  |__|_ \ |__|_|  (____  /__|  |__|  \___  >__|   
+        \/     \/           \/       \/     \/                \/       
                                                 
 ${NC}"
 EPOL=`cat /tmp/sysinfo/model`
@@ -85,7 +88,7 @@ echo "Installing Passwall 1 ..."
 
 sleep 2
 
-rm -f passwall.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/Passwall/main/passwall.sh && chmod 777 passwall.sh && sh passwall.sh
+rm -f passwall.sh && wget https://raw.githubusercontent.com/Alireza-trbi/Darkmatter/Passwall/main/passwall.sh && chmod 777 passwall.sh && sh passwall.sh
 
 
 ;;
@@ -96,7 +99,7 @@ echo "Installing Passwall 2 ..."
 
 sleep 2
 
-rm -f passwall2x.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/Passwall/main/passwall2x.sh && chmod 777 passwall2x.sh && sh passwall2x.sh
+rm -f passwall2x.sh && wget https://raw.githubusercontent.com/Alireza-trbi/Darkmatter/Passwall/main/passwall2x.sh && chmod 777 passwall2x.sh && sh passwall2x.sh
 
  
 ;;
@@ -152,7 +155,7 @@ echo "Installing Passwall 2 With Mahsa Core ..."
 
 sleep 2
 
-rm -f mahsa.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/Passwall/refs/heads/main/mahsa.sh && chmod 777 mahsa.sh && sh mahsa.sh
+rm -f mahsa.sh && wget https://raw.githubusercontent.com/Alireza-trbi/Darkmatter/Passwall/refs/heads/main/mahsa.sh && chmod 777 mahsa.sh && sh mahsa.sh
 
 
 ;;
