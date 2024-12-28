@@ -254,7 +254,11 @@ uci set passwall.@global[0].udp_proxy_mode='proxy'
 uci commit passwall
 
 
-uci set dhcp.@dnsmasq[0].rebind_domain='www.ebanksepah.ir 
+uci set dhcp.@dnsmasq[0].rebind_domain='qmb.ir
+medu.ir
+ebanksepah.ir
+banksepah.ir
+medu.gov.ir
 my.irancell.ir'
 
 uci commit
