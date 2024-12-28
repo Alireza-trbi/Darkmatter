@@ -269,7 +269,7 @@ my.irancell.ir'
 uci commit
 
 echo -e "${YELLOW}** Installation Completed ** ${ENDCOLOR}"
-echo -e "${MAGENTA} Made With By : ALIREZA_TRBI ${ENDCOLOR}"
+echo -e "${MAGENTA} Made By : ALIREZA_TRBI ${ENDCOLOR}"
 
 
 rm passwallx.sh 2> /dev/null
