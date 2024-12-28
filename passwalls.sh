@@ -231,17 +231,21 @@ uci commit system
 
 uci commit wireless
 
-uci set system.@system[0].hostname=By-AmirHossein
+uci set system.@system[0].hostname=By-ALIREZA_TRBI
 
 uci commit system
 
-uci set dhcp.@dnsmasq[0].rebind_domain='www.ebanksepah.ir 
+uci set dhcp.@dnsmasq[0].rebind_domain='qmb.ir
+medu.ir
+ebanksepah.ir
+banksepah.ir
+medu.gov.ir
 my.irancell.ir'
 
 uci commit
 
 echo -e "${YELLOW}** Installation Completed ** ${ENDCOLOR}"
-echo -e "${MAGENTA} Made With Love By : AmirHossein ${ENDCOLOR}"
+echo -e "${MAGENTA} Made With By : ALIREZA_TRBI ${ENDCOLOR}"
 
 /sbin/reload_config
 
