@@ -95,12 +95,17 @@ opkg install kmod-tun
 
 >/etc/banner
 
-echo "    ___    __  ___________  __  ______  __________ ___________   __
-   /   |  /  |/  /  _/ __ \/ / / / __ \/ ___/ ___// ____/  _/ | / /
-  / /| | / /|_/ // // /_/ / /_/ / / / /\__ \\__ \ / __/  / //  |/ /
- / ___ |/ /  / // // _  _/ __  / /_/ /___/ /__/ / /____/ // /|  /
-/_/  |_/_/  /_/___/_/ |_/_/ /_/\____//____/____/_____/___/_/ |_/                                                                                                
-telegram : @AmirHosseinTSL" >> /etc/banner
+echo " 
+________                __                     __    __                
+\______ \ _____ _______|  | __   _____ _____ _/  |__/  |_  ___________ 
+ |    |  \\__  \\_  __ \  |/ /  /     \\__  \\   __\   __\/ __ \_  __ \
+ |    `   \/ __ \|  | \/    <  |  Y Y  \/ __ \|  |  |  | \  ___/|  | \/
+/_______  (____  /__|  |__|_ \ |__|_|  (____  /__|  |__|  \___  >__|   
+        \/     \/           \/       \/     \/                \/       
+   
+                  W I R E L E S S   F R E E D O M
+               https://t.me/net_lte BY @ALIREZA_TRBI                                                                  
+telegram : @ALIREZA_TRBI" >> /etc/banner
 
 sleep 1
 
@@ -227,7 +232,7 @@ uci commit passwall2
 
 uci commit system
 
-uci set system.@system[0].hostname=By-AmirHossein
+uci set system.@system[0].hostname=By-ALIREZA_TRBI
 
 uci commit system
 
@@ -237,7 +242,7 @@ my.irancell.ir'
 uci commit
 
 echo -e "${YELLOW}** Installation Completed ** ${ENDCOLOR}"
-echo -e "${MAGENTA} Made With Love By : AmirHossein ${ENDCOLOR}"
+echo -e "${MAGENTA} Made With By : ALIREZA_TRBI ${ENDCOLOR}"
 
 rm passwall2x.sh
 
